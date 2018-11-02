@@ -12,6 +12,7 @@ public class SceneController : MonoBehaviour
 	public float secondsBeforeLoad;
 
 	private string sceneToLoad = "";
+	
 
 	private void Awake()
 	{
@@ -68,5 +69,10 @@ public class SceneController : MonoBehaviour
 	private void LoadActualScene()
 	{
 		SceneManager.LoadScene(sceneToLoad);
+	}
+
+	public void ReloadActiveScene()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 }

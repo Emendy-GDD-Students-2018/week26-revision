@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/Scene Management and Audio/Main Menu.unity
     guid: f79e91f28c5c5224bbe734ca5542365b
   - enabled: 1
-    path: Assets/Scenes/Game Scene.unity
+    path: Assets/Scenes/Scene Management and Audio/Game Scene.unity
     guid: 556a44c13b359ca498f80de1402111c6
+  - enabled: 1
+    path: Assets/Scenes/Scene Management and Audio/Loading.unity
+    guid: 70cd109eaf367ea4ea75739d12988ac1
+  - enabled: 1
+    path: Assets/Scenes/Lighting and Probes/Lighting Interior.unity
+    guid: 90dda4a70222d2a4f8b90b6a72df48d9
   m_configObjects: {}

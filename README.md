@@ -3,6 +3,8 @@
 
 ## Loading Screen (fake)
 
+## PlayerPrefs
+
 ## Realtime Lighting and Skyboxes
 
 ## Emission Shaders
