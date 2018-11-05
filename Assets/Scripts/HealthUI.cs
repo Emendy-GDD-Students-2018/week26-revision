@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Example for Obi
+/// Example for Obi:
+/// 
 /// We have a set of sprites and when the player reaches a health threshold, we change the image
 /// 
 /// We do this by getting a Normalised (0.0 to 1.0) quotient of current over max health
